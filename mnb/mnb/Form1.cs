@@ -24,7 +24,7 @@ namespace mnb
             InitializeComponent();
             dataGridView1.DataSource = Rates;
             cbx1.DataSource = Currencies;
-            // GetRates();
+            //GetRates();
             GetCurrencies();
             RefreshData();
         }
@@ -47,7 +47,7 @@ namespace mnb
             }
             m.Close();
         }
-
+        
         private void RefreshData()
         {
             Rates.Clear();
@@ -116,7 +116,7 @@ namespace mnb
             RefreshData();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbx1_SelectedIndexChanged(object sender, EventArgs e)
         {
             RefreshData();
         }

@@ -16,7 +16,7 @@ namespace mnb
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChartRateData());
+            Application.Run(new Form1());
         }
     }
 }
